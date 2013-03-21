@@ -1,0 +1,16 @@
+<h1><%= @worker.email %></h1>
+
+<div class="row">
+  <strong>Account created:</strong>
+  <%= @worker.created_at.strftime("%B %d, %Y") %>
+</div>
+
+<div class="row">
+  <strong>Name:</strong>
+  <%= @worker.name %>
+</div>
+
+<div class="row">
+  <strong>Phone number:</strong>
+  <%= @worker.phone %>
+</div>
