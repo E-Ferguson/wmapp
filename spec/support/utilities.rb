@@ -12,3 +12,11 @@ end
 def invalid_emails
   %w[jake@gmail.com willsmith oldie@wm.edu]
 end
+
+def valid_worker_emails
+  %w[jake@wm.edu jonstewart@wm.edu tj@wm.edu]
+end
+
+def invalid_worker_emails
+  %w[jake@gmail.com willsmith oldie@email.wm.edu]
+end
