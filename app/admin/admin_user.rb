@@ -9,6 +9,7 @@ ActiveAdmin.register AdminUser do
 
   filter :email                       
 
+  #for creating a new admin user
   form do |f|                         
     f.inputs "Admin Details" do       
       f.input :email                  

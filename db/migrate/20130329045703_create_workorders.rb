@@ -5,7 +5,7 @@ class CreateWorkorders < ActiveRecord::Migration
       t.string :building
       t.string :room
       t.string :worker
-      t.string :state
+      t.string :state#, :default => "Pending"
 
       t.timestamps
     end

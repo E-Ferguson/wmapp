@@ -1,4 +1,6 @@
 class AdminUser < ActiveRecord::Base
+    include SimplestAuth::Model
+
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
